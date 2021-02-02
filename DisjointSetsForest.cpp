@@ -33,7 +33,7 @@ void DisjointSetsForest<T>::unionSet(TreeNode<T> *x, TreeNode<T> *y)
 }
 
 template <class T>
-TreeNode<T> *DisjointSetsForest<T>::findSet(TreeNode<T> *x) //k mi permette di capire su chi ho chiamato findSet
+TreeNode<T> *DisjointSetsForest<T>::findSet(TreeNode<T> *x)
 {
     if (!x)
         return NULL;
